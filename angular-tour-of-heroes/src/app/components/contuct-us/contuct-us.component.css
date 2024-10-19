@@ -1,0 +1,94 @@
+.main-container{
+  position: fixed;
+  display: grid;
+  left: 250px;
+  grid-template-columns: 1fr 1fr;
+  font-family: sans-serif ;
+  font-weight:bold;
+  height: 1150px;
+
+
+
+}
+
+.including{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #111233;
+  color: white;
+  justify-content: center;
+  align-items:flex-start;
+  height: auto;
+
+
+
+}
+
+.including-2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: linear-gradient(90deg, #AC208F 0%, #702C8E 100%);
+
+}
+.headings{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+}
+
+.cards{
+  display: flex;
+  position: relative;
+  padding: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  height: 150px;
+  width: 700px;
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3)
+
+
+}
+.reaching{
+  transform: translate(20px,-120px);
+
+}
+
+.subContainer{
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(3, 200px);
+  left: 30px;
+  width: 800px;
+  gap: 30px;
+}
+.icon{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #AC208F 0%, #702C8E 100%);
+}
+.form{
+  position: relative;
+  display: flex;
+  top: 200px;
+  width: auto;
+  height: auto;
+}
+.form-row{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
