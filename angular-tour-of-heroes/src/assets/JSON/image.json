@@ -1,0 +1,42 @@
+[
+  {
+    "image": "./assets/angular-icon-1.svg"
+  },
+  {
+    "image": "./assets/react-2.svg"
+  },
+  {
+    "image": "./assets/nodejs-2.svg"
+  },
+  {
+    "image": "./assets/python-5.svg"
+  },
+  {
+    "image": "./assets/spring-3.svg"
+  },
+  {
+    "image": "./assets/js.jpeg"
+  },
+  {
+    "image": "./assets/css-3.svg"
+  },
+  {
+    "image": "./assets/html-1.svg"
+  },
+  {
+    "image": "./assets/java-4.svg"
+  },
+  {
+    "image": "./assets/php.jpg"
+  },
+  {
+    "image": "./assets/mysql-3.svg"
+  },
+  {
+    "image": "./assets/mongodb-icon-2.svg"
+  },
+
+  {
+    "image": "./assets/typescript.svg"
+  }
+]
