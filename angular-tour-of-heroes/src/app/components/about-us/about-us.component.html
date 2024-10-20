@@ -1,0 +1,56 @@
+<div class="remainig">
+  <div class="image-includer">
+    <img src="./assets/fullstackDeveloper.webp" alt="" class="image">
+  </div>
+  <div class="includings">
+    <div class="container2">
+      <div class="container3">
+        <h1 class="head">About Me</h1>
+        <p class="para1">
+          Hi there! I'm a quick learner with a passion for coding and a love for exploring new technologies. Always eager to dive into the latest innovations, I thrive on the excitement of learning and mastering new skills.
+        </p>
+      </div>
+      <div class="tabs">
+        <mat-tab-group class="custom-tab-group" >
+          <mat-tab label="Skills" >
+            <div class="image-contains">
+              <div *ngFor="let items of jsonArray">
+                <img src="{{items.image}}" class="image-list">
+              </div>
+            </div>
+          </mat-tab>
+          <mat-tab label="Education">
+            <div class="including2">
+              <ul >
+                <li>
+                  B.Sc. (Hons) in Computer Science <br>
+                  Informatics Institute of Technology affiliated with University of Westminster.
+                </li>
+                <li>
+                  G.C.E Advance Level 2021 (Physical Science Stream)<br>
+                  S.Thomas's College Mt Lavinia<br>
+                  Maths - B , Chemistry - C, Physics - C <br>
+                </li>
+                <li>
+                  G.C.E. Ordinary Level 2017<br>
+                  S.Thomas's College Mt Lavinia<br>
+                  Grade - 6A 2B  1C<br>
+                </li>
+              </ul>
+
+            </div>
+
+
+
+
+
+
+          </mat-tab>
+        </mat-tab-group>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>

@@ -1,0 +1,103 @@
+*{
+  background-color: #111233;
+  color: white;
+  font-size: 30px;
+}
+
+.remainig{
+  position: fixed;
+  display: flex;
+  left: 250px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+
+
+}
+.tabs{
+  width: 100%;
+  height: 100%;
+}
+
+.image{
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+.image-includer{
+  position: relative;
+  display: flex;
+  top: 100px;
+  left: 80px;
+
+}
+
+.includings{
+
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+  display: flex;
+  top: 100px;
+  left: 150px;
+
+}
+.container3{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 40px;
+}
+.container3 h1{
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.para1{
+  position: relative;
+  display: flex;
+  gap: 20px;
+  word-spacing: 5px ;
+  line-height: 1.8;
+
+}
+.image-list{
+  height: 100px;
+  width: 100px;
+  transition: transform 2s ease;
+
+}
+.image-list:hover {
+  transform: rotateY(360deg); /* Rotate 180 degrees on the Y-axis */
+}
+
+.image-contains{
+  width: 400px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 40px 30px;
+}
+.custom-tab-group{
+  width: 100%;
+}
+
+.Skills{
+  width: 100%;
+
+}
+.including2{
+  word-spacing: 5px ;
+  line-height: 2.0;
+
+}
+.including2 li{
+  font-size: 20px;
+}
+
